@@ -1,24 +1,24 @@
 .holder {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
 }
 .item {
-  flex: 1;
-  padding: 10px;
+	flex:1;
+	padding:10px;
 }
 .item:nth-child(1) {
-	order: 2;
-	background-color: red;
+	order:2;
+	background-color:red;
 }
 .item:nth-child(2) {
-	order: 3;
-	background-color: blue;
+	order:3;
+	background-color:blue;
 }
 .item:nth-child(3) {
-	order: 1;
-	background-color: green;
+	order:1;
+	background-color:green;
 }
-.item{
-	background-color: green;
+.item {
+	background-color:green;
 }
